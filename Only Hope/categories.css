@@ -1,0 +1,204 @@
+.fondcate{
+    background-color: #40698E;
+    padding: 5px;
+    height: 1000px;
+}
+.parallelogramme{
+	width:400px;
+	background:#6DB1C8;
+	-webkit-transform:skew(20deg);
+	-moz-transform:skew(20deg);
+	-o-transform:skew(20deg);
+    transform:skew(20deg);
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.parallelogramme2{
+	width:780px;
+	background:#6DB1C8;
+	-webkit-transform:skew(20deg);
+	-moz-transform:skew(20deg);
+	-o-transform:skew(20deg);
+    transform:skew(20deg);
+    border-radius : 0px 10px 10px 10px;
+    padding: 5px;
+    margin: auto;
+}
+
+.description {
+    font-size: 11px;
+    width: 480px;
+    padding: 5px;
+    height: 80px;
+    overflow: auto;
+    text-align: justify;
+    display: inline-block;
+    padding: 15px 10px 0px 5px;
+}
+.nouveaux_messages {
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    vertical-align: top;
+    opacity: 1;
+    transition: 1s ease;
+    
+}
+.nouveaux_messages_img{
+    background-color: #40698E;
+    border-radius: 100px;
+    height: 90px;
+    width: 90px;
+    -webkit-transform:skew(-20deg);
+	-moz-transform:skew(-20deg);
+	-o-transform:skew(-20deg);
+    transform:skew(-20deg);
+    box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    transition: 0.5s ease-in;
+}
+.lastpost {
+    font-size: 11px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    top: -65px;
+    left: 0px;
+    -webkit-transform:skew(-20deg);
+	-moz-transform:skew(-20deg);
+	-o-transform:skew(-20deg);
+    transform:skew(-20deg);
+    opacity: 0;
+    border-radius: 80px;
+    transition: 0.5s ease-in;;
+    
+}
+.nouveaux_messages:hover .lastpost {
+    opacity: 1;
+    transition: 1s ease;
+}
+.nouveaux_messages:hover .nouveaux_messages_img {
+    opacity: 0;
+    transition: 0.5s ease-in;;
+}
+.liens_sous_forums{
+    font-size: 11px;
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+    vertical-align: top;
+    overflow: auto;
+    padding: 5px 5px 5px 15px;
+    margin: 10px;
+}
+.liste {
+    width: 140px;
+    height: 80px;
+}
+/* ---------------------- CATEGORIE NUMERO 2 ------------------*/
+
+.parallelogramme3{
+	width:800px;
+	background:#6DB1C8;
+	-webkit-transform:skew(20deg);
+	-moz-transform:skew(20deg);
+	-o-transform:skew(20deg);
+    transform:skew(20deg);
+    padding: 5px;
+    font-size: 12px;
+    margin: auto;
+    margin-bottom : 10px;
+}
+.parallelogramme4{
+    width:800px;
+    height: 80px;
+	background:#6DB1C8;
+	-webkit-transform:skew(20deg);
+	-moz-transform:skew(20deg);
+	-o-transform:skew(20deg);
+    transform:skew(20deg);
+    padding: 5px;
+    margin: auto;
+    margin-bottom : 10px;
+}
+
+.nouveaux_messages2 {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    vertical-align: top;
+    opacity: 1;
+    transition: 1s ease;
+    margin-top: -10px;
+    
+}
+.nouveaux_messages_img2{
+    background-color: #40698E;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    -webkit-transform:skew(-20deg);
+	-moz-transform:skew(-20deg);
+	-o-transform:skew(-20deg);
+    transform:skew(-20deg);
+    opacity: 1;
+    transition: 0.5s ease-in;
+}
+
+.lastpost2 {
+    font-size: 11px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    top: -65px;
+    left: 0px;
+    -webkit-transform:skew(-20deg);
+	-moz-transform:skew(-20deg);
+	-o-transform:skew(-20deg);
+    transform:skew(-20deg);
+    opacity: 0;
+    border-radius: 80px;
+    transition: 0.5s ease-in;;
+    
+}
+.nouveaux_messages2:hover .lastpost2 {
+    opacity: 1;
+    transition: 1s ease;
+}
+.nouveaux_messages2:hover .nouveaux_messages_img2 {
+    opacity: 0;
+    transition: 0.5s ease-in;;
+}
+.liens_sous_forums2{
+    font-size: 11px;
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+    vertical-align: top;
+    overflow: auto;
+    padding: 0px 5px 5px 15px;
+    margin: 10px;
+}
+.liste2 {
+    width: 140px;
+    height: 80px;
+}
+/* ------------- SCROLL BAR ---------------- */
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
