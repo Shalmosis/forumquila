@@ -1,0 +1,89 @@
+body{
+    background-color: #89DDF6;
+}
+.fond {
+    width: 800px;
+    background-color: #E9ECEC;
+    border: 5px solid white;
+    margin: auto;
+    height: 100%;
+}
+.categorie {
+    width: 770px;
+    padding: 10px;
+    margin: auto;
+}
+.nom_cadre {
+    width: 710px;
+    font-size: 11px;
+    background-color: white;
+    height: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+.nom_cadre a {
+    text-decoration: none;
+    transition: .5s ease;
+}
+.nom_cadre a:hover {
+    letter-spacing: 1px;
+    transition: .7s ease;
+
+}
+.cadre_reste{
+    margin-top: 10px;
+    width: 720px;
+    font-size: 11px;
+    height: 70px;
+}
+.img_hexagone {
+    width: 50px;
+    border: 1px solid black;
+    height: 60px;
+    margin: 5px 0px 0px 0px;
+    display: inline-block;
+}
+.description{
+    height: 60px;
+    width: 500px;
+    overflow: auto;
+    display: inline-block;
+    text-align: justify;
+    padding: 0px 5px;
+    background-color: white;
+}
+.sous_forums {
+    width: 150px;
+    display: inline-block;
+    overflow: auto;
+    height: 60px;
+    background-color: white;
+}
+.lastpost{
+    width: 710px;
+    padding: 5px;
+    font-size: 11px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    border-radius: 10px;
+}
