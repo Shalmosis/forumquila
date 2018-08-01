@@ -8,18 +8,86 @@ body{
     margin: auto;
     height: 100%;
 }
-.categorie {
-    width: 770px;
-    padding: 10px;
-    margin: auto;
+/* ---------------------- PAGE D'ACCUEIL------------------------- */
+.pa {
+        width: 770px;
+        padding: 10px;
+        margin: auto;
 }
-.nom_cadre {
-    width: 710px;
+.bienvenue {
+    width: 760px;
     font-size: 11px;
     background-color: white;
     height: 10px;
     text-transform: uppercase;
     padding: 5px;
+    margin: 5px 0px 10px 0px;
+    text-align: center;
+}
+.contexte {
+    background-color: white;
+    width: 320px;
+    height: 100px;
+    font-size: 11px;
+    text-align: justify;
+    padding: 5px;
+    overflow: auto;
+    display: inline-block;
+}
+.nouveautes {
+    background-color: white;
+    width: 240px;
+    height: 100px;
+    font-size: 11px;
+    text-align: justify;
+    padding: 5px;
+    overflow: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+.partenariats {
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    font-size: 11px;
+    text-align: justify;
+    padding: 5px 0px 5px 10px;
+    overflow: auto;
+    display: inline-block;
+    margin-left: 10px;
+}
+.bloc_par {
+    width: 25px; 
+    height: 25px;
+    background-color: lightgrey;
+    display: inline-block;
+    border: 1px solid white;
+}
+.liens {
+    background-color: white;
+    font-size: 11px;
+    text-align: center;
+}
+/* ---------------------- CATEGORIES ---------------------------- */
+.categorie {
+    width: 770px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.nom_cadre {
+    width: 760px;
+    font-size: 11px;
+    background-color: white;
+    height: 10px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-top: 10px;
+}
+.nom_forum {
+    width: 600px;
+    display: inline-block;
+
 }
 .nom_cadre a {
     text-decoration: none;
@@ -30,40 +98,63 @@ body{
     transition: .7s ease;
 
 }
+.nombremessage {
+    width: 160px;
+    display: inline-block;
+    font-style: italic;
+    text-align: right;
+}
 .cadre_reste{
     margin-top: 10px;
-    width: 720px;
+    width: 750px;
     font-size: 11px;
     height: 70px;
+    margin: auto;
 }
 .img_hexagone {
-    width: 50px;
-    border: 1px solid black;
-    height: 60px;
+    width: 100px;
+    height: 80px;
     margin: 5px 0px 0px 0px;
     display: inline-block;
+    margin-right: -5px;
 }
 .description{
-    height: 60px;
-    width: 500px;
+    height: 80px;
+    width: 390px;
     overflow: auto;
     display: inline-block;
     text-align: justify;
     padding: 0px 5px;
     background-color: white;
+    margin-right: 10px;
 }
 .sous_forums {
-    width: 150px;
+    width: 120px;
     display: inline-block;
     overflow: auto;
     height: 60px;
     background-color: white;
+    padding-left: 5px;
+}
+.link_sforums{
+    text-decoration: none;
+    transition: 1s ease;
+    text-transform: uppercase;
+}
+.link_sforums:hover{
+    padding-left: 5px;
+    transition: 1s ease;
 }
 .lastpost{
-    width: 710px;
-    padding: 5px;
+    width: 740px;
+    padding: 2px;
+    margin-top: 5px;
     font-size: 11px;
+    text-align: center;
+    background-color: white;
 }
+
+/* ------------------------------- BARRE DE DEFILEMENT -------------- */
 /* width */
 ::-webkit-scrollbar {
     width: 7px;
