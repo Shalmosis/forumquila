@@ -1,0 +1,24 @@
+.barre_gauche {
+    width: 160px;
+    background-color: lightgrey;
+    font-size: 11px;
+    padding: 5px 2px;
+    display: inline-block;
+}
+.nouveautes {
+    width: 150px;
+    background-color: white;
+    margin: 5px 5px 10px 5px;
+}
+.rp_en_cours {
+    width: 150px;
+    background-color: white;
+    margin: 10px 5px 5px 5px;
+}
+.millieu {
+    background-color: lightgrey;
+    font-size: 11px;
+    padding: 5px 2px;
+    display: inline-block;
+    vertical-align: top;
+}

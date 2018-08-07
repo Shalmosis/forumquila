@@ -1,0 +1,102 @@
+.fondcate{
+    background-color: #40698E;
+    padding: 5px;
+    height: 1000px;
+    width: 800px;
+    margin:auto;
+}
+.cadretitre {
+    width: 750px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+.cadrecategories {
+    width: 750px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.newmessages {
+    width: 20px;
+    height: 20px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    margin-left: -10px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+.lastpost {
+    width: 80px;
+    height: 80px;
+    background-color: lightgrey;
+    display: inline-block;
+    border-radius: 50px;
+}
+.lastpost_message {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    overflow: hidden;
+    font-size: 10px;
+    padding-top: 20px;
+    opacity: 0;
+    margin-top: -80px;
+    transition: 1s ease;
+}
+.imgposter {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    overflow: hidden;
+    opacity: 1;
+    transition: 1s ease;
+}
+.lastpost:hover .imgposter {
+    opacity: 0;
+    transition: 1s ease;
+}
+.lastpost:hover .lastpost_message {
+    opacity: 1;
+    transition: 1s ease;
+}
+.description {
+    width: 600px;
+    background-color: lightgrey;
+    display: inline-block;
+    height: 70px;
+    margin-left: 5px;
+    vertical-align: top;
+    font-size: 11px;
+    overflow: auto;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 5px;
+}
+.sousforums {
+    width: 740px;
+    padding: 0px 5px 5px 5px;
+    height: 10px;
+    font-size: 11px;
+    margin-top: -10px;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: white;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}

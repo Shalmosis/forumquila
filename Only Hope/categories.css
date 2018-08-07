@@ -6,23 +6,17 @@
 .parallelogramme{
 	width:400px;
 	background:#6DB1C8;
-	-webkit-transform:skew(20deg);
-	-moz-transform:skew(20deg);
-	-o-transform:skew(20deg);
-    transform:skew(20deg);
     border-radius: 10px 10px 0px 0px;
     border-bottom: 1px solid black;
     padding: 5px;
     font-size: 12px;
-    margin-left: 30px;
+    margin-left: 55px;
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
 }
 .parallelogramme2{
 	width:780px;
 	background:#6DB1C8;
-	-webkit-transform:skew(20deg);
-	-moz-transform:skew(20deg);
-	-o-transform:skew(20deg);
-    transform:skew(20deg);
     border-radius : 0px 10px 10px 10px;
     padding: 5px;
     margin: auto;
@@ -52,10 +46,6 @@
     border-radius: 100px;
     height: 90px;
     width: 90px;
-    -webkit-transform:skew(-20deg);
-	-moz-transform:skew(-20deg);
-	-o-transform:skew(-20deg);
-    transform:skew(-20deg);
     box-shadow: inset 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     opacity: 1;
     transition: 0.5s ease-in;
@@ -68,13 +58,10 @@
     position: relative;
     top: -65px;
     left: 0px;
-    -webkit-transform:skew(-20deg);
-	-moz-transform:skew(-20deg);
-	-o-transform:skew(-20deg);
-    transform:skew(-20deg);
     opacity: 0;
     border-radius: 80px;
-    transition: 0.5s ease-in;;
+    transition: 0.5s ease-in;
+    font-family: 'Play', sans-serif;
     
 }
 .nouveaux_messages:hover .lastpost {
@@ -83,7 +70,7 @@
 }
 .nouveaux_messages:hover .nouveaux_messages_img {
     opacity: 0;
-    transition: 0.5s ease-in;;
+    transition: 0.5s ease-in;
 }
 .liens_sous_forums{
     font-size: 11px;
@@ -94,6 +81,7 @@
     overflow: auto;
     padding: 5px 5px 5px 15px;
     margin: 10px;
+    font-family: 'Play', sans-serif;
 }
 .liste {
     width: 140px;
@@ -104,23 +92,16 @@
 .parallelogramme3{
 	width:800px;
 	background:#6DB1C8;
-	-webkit-transform:skew(20deg);
-	-moz-transform:skew(20deg);
-	-o-transform:skew(20deg);
-    transform:skew(20deg);
     padding: 5px;
     font-size: 12px;
     margin: auto;
     margin-bottom : 10px;
+    font-family: 'Play', sans-serif;
 }
 .parallelogramme4{
     width:800px;
     height: 80px;
 	background:#6DB1C8;
-	-webkit-transform:skew(20deg);
-	-moz-transform:skew(20deg);
-	-o-transform:skew(20deg);
-    transform:skew(20deg);
     padding: 5px;
     margin: auto;
     margin-bottom : 10px;
@@ -141,10 +122,6 @@
     border-radius: 100px;
     height: 100px;
     width: 100px;
-    -webkit-transform:skew(-20deg);
-	-moz-transform:skew(-20deg);
-	-o-transform:skew(-20deg);
-    transform:skew(-20deg);
     opacity: 1;
     transition: 0.5s ease-in;
 }
@@ -157,13 +134,10 @@
     position: relative;
     top: -65px;
     left: 0px;
-    -webkit-transform:skew(-20deg);
-	-moz-transform:skew(-20deg);
-	-o-transform:skew(-20deg);
-    transform:skew(-20deg);
     opacity: 0;
     border-radius: 80px;
-    transition: 0.5s ease-in;;
+    transition: 0.5s ease-in;
+    font-family: 'Play', sans-serif;
     
 }
 .nouveaux_messages2:hover .lastpost2 {
@@ -172,7 +146,7 @@
 }
 .nouveaux_messages2:hover .nouveaux_messages_img2 {
     opacity: 0;
-    transition: 0.5s ease-in;;
+    transition: 0.5s ease-in;
 }
 .liens_sous_forums2{
     font-size: 11px;
@@ -180,9 +154,10 @@
     width: 140px;
     height: 60px;
     vertical-align: top;
-    overflow: auto;
+    overflow-y: auto;
     padding: 0px 5px 5px 15px;
     margin: 10px;
+    font-family: 'Play', sans-serif;
 }
 .liste2 {
     width: 140px;
