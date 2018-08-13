@@ -1,0 +1,52 @@
+.fond_cate {
+    padding: 10px;    
+}
+.message {
+    width: 500px;
+    font-family: Calibri;
+    font-size: 11px;
+    color: #000;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #7D5A43;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.img {
+    height: 150px;
+}
+.titre_annonce {
+    padding: 5px;
+    width: 490px;
+    background-color: black;
+    text-align: center;
+    color: #eae0a6;
+    text-transform: uppercase;
+}
+.content {
+    padding: 10px 20px;
+    text-align: justify;
+}
+.credit {
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0.3;
+    color: white;
+}
+.message .staff_cadre {
+    padding: 0px 20px;
+    margin: auto;
+}
+.message .staff_cadre .img_staff {
+    width: 120px;
+    height: 200px;
+    display: inline-block;
+    background-color: rgba(0,0,0,.6);
+    margin-right: 5px;
+}
+.message .staff_cadre .presentation_staff {
+    width: 290px;
+    height: 200px;
+    overflow: auto;
+    display: inline-block;
+}
