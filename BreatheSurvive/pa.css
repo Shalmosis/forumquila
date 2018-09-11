@@ -1,0 +1,244 @@
+#pa {
+    width: 800px;
+    padding: 5px;
+    color: white;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#PA_meteo {
+    text-align: center;
+}
+#PA_gauche {
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    padding: 5px;
+}
+#PA_links_box {
+    width: 170px;
+    border: 1px solid white;
+    height: 295px;
+    text-align: center;
+}
+.PA_link {
+    padding: 5px;
+    margin: 0px 0px 11px 0px;
+    width: 150px;
+    background-color: lightgrey;
+    -webkit-transform:skew(-30deg);
+	-moz-transform:skew(-30deg);
+	-o-transform:skew(-30deg);
+	tranform:skew(-30deg);
+}
+.PA_link_a {
+    -webkit-transform:skew(30deg) !important;
+	-o-transform:skew(30deg)  !important;
+    tranform:skew(30deg) !important;
+    font-size: 11px;
+   
+}
+.PA_link_a a {
+    text-decoration: none;
+}
+#PA_milieu {
+    display: inline-block;
+    height: 290px;
+    width: 400px;
+    padding: 5px;
+}
+#PA_ctxt {
+    width: 390px;
+    height: 90px;
+    background-color: #484848;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    margin-bottom :12px;
+}
+.PA_titre {
+    background-color: #9c9c9c;
+    padding: 2px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.ctxt_content {
+    height: 60px;
+    padding: 5px;
+    text-align: justify;
+    overflow: auto;
+}
+#PA_annonces {
+    width: 390px;
+    height: 90px;
+    background-color: #484848;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    margin-bottom : 10px;
+}
+.PA_annonce {
+    width: 250px;
+    height: 90px;
+    margin-left: -25px;
+    background-color: lightgrey;
+    -webkit-transform:skew(-30deg) !important;
+	-moz-transform:skew(-30deg)  !important;
+	-o-transform:skew(-30deg)  !important;
+    tranform:skew(-30deg) !important;
+    display: inline-block;
+}
+.PA_musique {
+    width: 161px;
+    height: 90px;
+    display: inline-block;
+    vertical-align: top;
+}
+.annonce_content {
+    height: 60px;
+    padding: 5px;
+    text-align: justify;
+    overflow: auto;
+    margin-left: 40px;
+    -webkit-transform:skew(30deg) !important;
+	-moz-transform:skew(30deg)  !important;
+	-o-transform:skew(30deg)  !important;
+    tranform:skew(30deg) !important;
+}
+#PA_staff_mbr {
+    width: 390px;
+    height: 95px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    background-color: #484848;
+}
+.PA_staff {
+    width: 75px;
+    height: 30px;
+    margin-left: 0px;
+    text-align: center;
+    display: inline-block;
+    background-color:black;
+    overflow: hidden;
+}
+.img_bloc {
+    margin-top: -25px;
+    width: 75px;
+    height: 30px;
+    background-color: white;
+    transition: ease 0.6s;
+}
+.description {
+    color: white;
+    background-color: black;
+}
+.PA_staff:hover .img_bloc {
+    margin-left: -70px;
+    transition: ease 0.6s;
+}
+.staff_content {
+    height: 60px;
+    padding: 10px 5px 5px 5px;
+    text-align: center;
+    overflow: auto;
+    margin-left: 40px;
+    -webkit-transform:skew(30deg) !important;
+	-moz-transform:skew(30deg)  !important;
+	-o-transform:skew(30deg)  !important;
+    tranform:skew(30deg) !important;
+}
+.mdm_content {
+    height: 100px;
+    padding: 10px 5px 5px 5px;
+    text-align: center;
+    overflow: auto;
+}
+#PA_droite {
+    background-color: #484848;
+    display: inline-block;
+    vertical-align: top;
+    height: 300px;
+    width: 160px;
+    margin-left: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#PA_PV {
+    width: 160px;
+    border-bottom-right-radius: 10px;
+    background-color: #484848;
+}
+.PA_pv {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+}
+.img_bloc_pv {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    transition: ease 0.6s;
+}
+/* ------------------- QEEL PAR SIGMAQUILA ------------- */
+#qeel {
+    width: 800px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#qeel_groupes {
+    width: 100px;
+    display: inline-block;
+}
+#qeel_groupes_titre {
+    width: 70px;
+}
+.qeel_groupe {
+    padding: 5px;
+    margin: 0px 0px 11px 0px;
+    width: 70px;
+    background-color: lightgrey;
+    -webkit-transform:skew(-30deg);
+	-moz-transform:skew(-30deg);
+	-o-transform:skew(-30deg);
+	tranform:skew(-30deg);
+}
+.q_g_t {
+    -webkit-transform:skew(30deg) !important;
+	-o-transform:skew(30deg)  !important;
+    tranform:skew(30deg) !important;
+    font-size: 11px;
+    text-align: center;
+}
+.qeel_connect {
+    width: 400px;
+    height: 95px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #484848;
+
+}
+
+/* ------------ BARRE DE SCROLL -------------- */
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: lightgrey;
+    
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: white;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
