@@ -1,0 +1,123 @@
+
+/* BLOC TITRE CATEGORIE */
+.tleCAT { 
+margin:10px auto;
+width:800px; padding:10px 0; text-align:center;
+background:#0e0e0e; /* MODIFIABLE */
+}
+/* TITRE CATEGORIE */
+.tleCAT h2 {
+margin:0;
+font-size:25px; text-transform:uppercase; letter-spacing:3px; font-family:'Coda', cursive;; 
+color:white; /* MODIFIABLE */
+}
+/* BLOC FORUM */
+#FRM {
+margin:0 auto 10px; 
+width:800px; height:165px; overflow:hidden; 
+}
+.FRM {
+position:relative; width:800px; height:165px; overflow:hidden;
+text-align:center; font-family:Arial; 
+}
+/* BLOC TITRE FORUM */
+.tleFRM {
+display:inline-block; vertical-align:top;
+width:490px; height:20px; padding:10px 0 10px 10px; overflow:hidden;
+text-align:left; font-size:16px; font-weight:bold; text-transform:uppercase; line-height:20px;
+background:#484848; /* MODIFIABLE */
+font-family: 'Coda', serif;
+}
+/* TITRE FORUM AU PASSAGE DE LA SOURIS PAR SIGMAQUILA */
+.tleFRM a {
+color: #fff !important; transition: ease 0.6s; text-decoration: none; text-shadow:1px 1px 0px rgba(0,0,0,0.2); text-decoration:none; /* MODIFIABLE */
+}
+.tleFRM a:hover {
+  color:white !important;
+  letter-spacing: 1px;
+  transition: ease 0.6s;
+}
+/* TRIANGLE TITRE FORUM */
+.triLFRM {
+position:absolute; z-index:3; margin-left:500px; margin-top:-40px; 
+width:0; height:0; border-style:solid; border-width:40px 20px 0 0; border-color:#484848 transparent transparent !important;
+border-top-color:grey; /* MODIFIABLE */
+}
+/* ICÔNES FORUM */
+.imgFRM {
+display:inline-block; vertical-align:top;
+width:50px; height:40px; 
+}
+/* TRIANGLE NOMBRE SUJETS & MESSAGES FORUM */
+.triRFRM {
+position:absolute; z-index:3; margin-left:530px; margin-top:-40px; 
+width:0; height:0; border-style:solid; border-width:0 0 40px 20px; border-color:transparent;
+border-bottom-color:#F1F0F4; /* MODIFIABLE */
+}
+/* NOMBRE SUJETS & MESSAGES FORUM */
+.nbFRM {
+display:inline-block; vertical-align:top; 
+width:240px; height:20px; padding:13px 5px 7px 5px; overflow:hidden;
+text-align:center; font-size:11px; text-transform:uppercase; line-height:15px;
+background:#F1F0F4; color:rgba(0,0,0,0.5); /* MODIFIABLE */
+}
+/* BLOC SOUS-FORUMS / DESCRIPTION / DERNIER MESSAGE FORUM */
+.boxFRM {
+width:800px; height:125px;
+}
+/* BLOC SOUS-FORUMS */
+.sfFRM {
+display:inline-block; vertical-align:top; 
+width:205px; height:115px; padding:5px 125px 5px 5px; overflow-y:auto;
+text-align:left; text-transform:uppercase; color:rgba(0,0,0,0); line-height:0;
+background:#EBEBEB; /* MODIFIABLE */
+}
+/* SOUS-FORUMS */
+.sfFRM a {
+    color: #191919!important;
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Coda, cursive;
+}
+/* TRIANGLE DESCRIPTION FORUM */
+.triFRM {
+position:absolute; z-index:3; margin-top:-125px; margin-left:230px;
+width:0; height:0; border-style:solid; border-width:0 0 125px 105px; border-color:transparent;
+border-bottom-color:#DEDEDE; /* MODIFIABLE */
+}
+/* DESCRIPTION FORUM */
+.descFRM {
+display:inline-block; vertical-align:top;
+width:305px; height:115px; padding:5px; overflow:hidden;
+background:#DEDEDE; color:black; /* MODIFIABLE */
+font-size:12px; text-align:justify; line-height:14.5px;
+}
+.descFRM:hover {
+overflow-y:auto; 
+}
+/* IMAGE DESCRIPTIVE FORUM */
+.descFRM img {
+position:absolute; z-index:2; margin-top:-5px; margin-left:-340px;
+width:335px; height:125px;
+transition:all .65s linear; -webkit-transition:all .65s linear;
+}
+.boxFRM:hover .descFRM img {
+transform:translateX(-335px); -webkit-transform:translateX(-335px);
+}
+/* DERNIER MESSAGE FORUM */
+.lmsgFRM {
+display:inline-block; vertical-align:top;
+width:140px; height:125px; padding:0 5px; overflow:hidden;
+text-align:right; font-size:11px; text-transform:uppercase; line-height:18px;
+background: rgba(136, 136, 136, 0.6); color:#fff;
+border-radius: 0px 0px 20px 0px;/* MODIFIABLE */
+}
+/* COULEUR TITRE SUJET DERNIER MESSAGE FORUM */
+.lmsgFRM a {
+color:#fff; /* MODIFIABLE */
+    font-family: 'Coda', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:12px;
+}

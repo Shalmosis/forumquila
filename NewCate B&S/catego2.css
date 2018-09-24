@@ -1,0 +1,149 @@
+.box_forum {
+    width: 800px;
+    border: 1px solid black;
+    border-bottom-right-radius: 10px;
+    overflow:hidden;
+    padding: 0px;
+}
+.box_head_forum {
+    width:800px;
+    overflow:hidden;
+    height: 20px;
+}
+.titre_forum {
+    display: inline-block;
+    background-color: #353535;
+    color: white;
+    width: 400px;
+    padding-left: 20px;
+    margin-left: -10px;
+    -webkit-transform:skew(-30deg);
+	-moz-transform:skew(-30deg);
+	-o-transform:skew(-30deg);
+	transform:skew(-30deg);
+}
+.titre_forum .tle {
+    text-transform:uppercase; 
+    line-height:20px;
+    font-family: 'Coda', serif;
+    -webkit-transform:skew(30deg);
+	-moz-transform:skew(30deg);
+	-o-transform:skew(30deg);
+    transform:skew(30deg);
+    font-size:16px; font-weight:bold; 
+}
+
+/* TITRE FORUM AU PASSAGE DE LA SOURIS PAR SIGMAQUILA */
+.titre_forum .tle a {
+    color: #fff !important; transition: ease 0.6s; text-decoration: none; text-shadow:1px 1px 0px rgba(0,0,0,0.2); text-decoration:none; /* MODIFIABLE */
+    }
+.titre_forum .tle a:hover {
+    color:white !important;
+    letter-spacing: 1px;
+    transition: ease 0.6s;
+}
+.img_mess_forum {
+    width: 100px;
+    height: 20px;
+    margin-left: -10px;
+    background-color: #899177;
+    display: inline-block;
+    vertical-align: top;
+}
+.stats_forum {
+    width:290px;
+    display: inline-block;
+    margin-left: -10px;
+    height: 20px;
+    vertical-align: top;
+    background:#F1F0F4;
+    -webkit-transform:skew(-30deg);
+	-moz-transform:skew(-30deg);
+	-o-transform:skew(-30deg);
+    transform:skew(-30deg);
+    font-size: 12px;
+    text-align: right;
+    line-height: 20px;
+    padding-right: 10px;
+}
+.box_content_forum {
+    width:800px;
+    height: 100px;
+    background-color: #353535;;
+}
+.box_content_forum .links {
+    width: 300px;
+    margin-left: -30px;
+    background-color :#F1F0F4;
+    -webkit-transform:skew(-30deg);
+	-moz-transform:skew(-30deg);
+	-o-transform:skew(-30deg);
+    transform:skew(-30deg);
+    overflow: hidden;
+    display: inline-block;
+}
+.box_content_forum .links .img_forum {
+    width: 310px;
+    height: 100px;
+    margin-top: -100px;
+    background-color :#F1F0F4;
+}
+.box_content_forum .img_forum img {
+    width: 340px;
+    -webkit-transform:skew(30deg);
+	-moz-transform:skew(30deg);
+	-o-transform:skew(30deg);
+    transform:skew(30deg);
+
+}
+.box_content_forum:hover .img_forum {
+    width: 340px;
+    height: 100px;
+    margin-left: -320px;
+}
+.box_content_forum .links_a {
+    opacity: 0;
+    width: 290px;
+    height: 100px;
+    padding-left: 45px;
+    -webkit-transform:skew(30deg);
+	-moz-transform:skew(30deg);
+	-o-transform:skew(30deg);
+    transform:skew(30deg);
+}
+/* SOUS-FORUMS */
+.box_content_forum .links_a a {
+    color: #191919 !important;
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Coda, cursive;
+}
+.box_content_forum:hover .links_a {
+    opacity: 1;
+}
+.desc {
+    width: 320px;
+    height: 100px;
+    background: #ACAD99;
+    display: inline-block;
+    text-align: justify;
+    margin-left: -40px;
+    padding-left: 50px;
+    vertical-align: top;
+    font-size: 12px;
+    padding: 10px 10px 10px 60px;
+}
+.lastpost {
+    width: 170px;
+    height: 100px;
+    background-color: #353535;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 11px;
+    color: lightgrey;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 25px;
+    text-transform:uppercase;
+}
