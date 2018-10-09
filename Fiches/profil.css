@@ -9,13 +9,13 @@
     overflow: hidden;
 }
 .profil {
-    height:415px;
+    height:416px;
     width: 200px;
     display: inline-block;
     margin-left: 10px;
-    overflow: hidden;
-    transform: skew(0deg, -2deg);
-    border: 5px solid #899177;
+    padding : 5px;
+    transform: skew(0deg, -3deg);
+    border: 1px solid #899177;
     background-color: #899177;
 }
 .pfl_username {
@@ -65,4 +65,26 @@
     margin: -5px 0px 0px 0px;
     text-align: center;
     background-color: #353535;
+}
+.b {
+    margin-top:-1px;
+    width: 0;
+height: 0;
+position: absolute;
+z-index: 3;
+border-style: solid;
+border-width: 80px 101px 0 100px;
+border-color: #353535 transparent transparent transparent;
+}
+.cd {
+    margin-top: 9px;
+    margin-left: -1px;
+    width: 0;
+height: 0;
+position: absolute;
+z-index: 2;
+border-style: solid;
+border-width: 80px 106px 0 106px;
+transform: skew(0deg, -0.3deg);
+border-color: #899177 transparent transparent transparent;
 }
