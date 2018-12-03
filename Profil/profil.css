@@ -1,0 +1,68 @@
+.forum {
+    padding: 10px;
+}
+#bs-pfl-sq {
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#bs-pfl-cadre-sq {
+    margin-top: 5px;
+    width: 200px;
+    height: 350px;
+    transform: skew(0deg, -3deg);
+    background-color: #353535;
+    padding: 10px 0px;
+}
+#bs-pfl-av-sq {
+    background-color: black;
+    width:200px;
+    height: 320px;
+}
+#bs-pfl-av-sq, img:hover {
+    opacity: 0;
+}
+.bs-pfl-infos-sq {
+    margin-top: -320px;
+    opacity: 0;
+    color: white;
+    line-height: 20px;
+    font-size: 11px;
+}
+#bs-pfl-av-sq:hover .bs-pfl-infos-sq {
+    opacity: 1;
+}
+#bs-pfl-groupe-sq {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #899177;
+    margin: 10px 0px;
+}
+#bs-pfl-gtle-sq {
+    transform: skew(0deg, 3deg);
+}
+#bs-pfl-vide-sq {
+    height: 15px;
+    width: 200px;
+    margin-top: -5px;
+    background-color: #353535;
+}
+#bs-pfl-tri-sq {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 90px 100px 0 100px;
+border-color: #353535 transparent transparent transparent;
+}
+.bs-pfl-online-sq {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -10px;
+    transform: rotate(45deg)
+}
