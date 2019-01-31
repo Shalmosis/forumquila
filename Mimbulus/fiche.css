@@ -1,0 +1,212 @@
+/* - 1. ÉLEMENTS COMMUNS FICHE DE PRESENTATION ET FICHE DE PRÉDÉFINI ----------------- */
+#MM_FF_box {
+    width: 580px;
+    color: #a67774;
+}
+#MM_FP_header {
+    background-image: url('https://www.zupimages.net/up/18/19/4gjz.png');
+    height: 100px;
+    width: 580px;
+}
+#titreFP_MM 
+{
+    font-family: 'Elsie', cursive;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 580px;
+    height: 100px;
+    margin: auto;
+    color: white;
+}
+#titreFP_MM span{ font-size: 14px;}
+.FP_MM_c { width: 100%; height: 28px;text-align: center; background-image: url('https://zupimages.net/up/18/19/l11u.png'); background-repeat: no-repeat;background-position:  center;;}
+#MM_FP_lb { text-align: center;}
+
+#boxinfFP_MM {
+    width: 580px;
+    text-align: left;
+    background-color: #1f0409;
+}
+.caraFP_MM {
+    width: 105px;
+    display: inline-block;
+    padding: 1px 2px;
+    text-align: center;
+    font-family: 'Elsie', cursive;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+#boxidFP_MM 
+{
+    width: 200px;
+    height: 348px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+#contidFP_MM 
+{
+    width: 190px;
+    height: 310px;
+    margin-top: -4px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#contidFP_MM .infos { height: 310px; overflow: auto; margin-top: -310px; opacity: 0; position: absolute; width: 190px; border-radius: 10px;}
+#contidFP_MM img {
+    margin-top: 0px;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+#contidFP_MM:hover img {
+    opacity: 0.1;
+    transition: 0.5s ease;
+}
+#contidFP_MM:hover .infos {
+    opacity: 0.8;
+}
+#contidFP_MM .infos .titre { width: 100%; text-transform: uppercase; background-color: black;padding: 5px 0px; font-family: 'Elsie', cursive; font-size: 16px;}
+#contidFP_MM .infos .reponse { padding: 4px 2px;}
+
+#MM_FP_lb_h {
+    width: 350px;
+    display: inline-block;
+    margin-left: 20px;
+}
+#MM_FP_j { vertical-align: top;}
+#MM_FP_hb {
+    background-image: url('https://www.zupimages.net/up/18/19/4gjz.png');
+    height: 50px;
+    width: 350px;
+}
+#MM_FP_hb #titreFP_MM {
+    font-size: 16px;
+    height:60px;
+}
+#MM_FP_j .infos {border-radius: 10px; overflow:hidden; margin-bottom: 5px; background-color: #20050A;box-shadow:2px 2px 9px #2D0F0F, -2px -2px 9px #2D0F0F;}
+#MM_FP_j .infos .content {height: 75px; overflow: auto; text-align: justify; padding: 5px;}
+#MM_FP_j .infos_FP_MM_pf {border-radius: 10px; overflow:hidden; margin-bottom: 5px; background-color: #20050A;box-shadow:2px 2px 9px #2D0F0F, -2px -2px 9px #2D0F0F;}
+#MM_FP_j .infos_FP_MM_pf .content {height: 200px; overflow: auto; text-align: justify; padding: 5px;}
+#MM_FP_j .MM_INV_top {border-radius: 10px; overflow:hidden; margin-bottom: 5px; background-color: #20050A;box-shadow:2px 2px 9px #2D0F0F, -2px -2px 9px #2D0F0F;}
+
+.FP_MM_xlb {
+    width: 600px;
+}
+.FP_MM_xlb #MM_FP_hb { width: 580px;}
+.FP_MM_xlb .infos {border-radius: 10px; overflow: hidden;width: 580px; box-shadow:2px 2px 9px #2D0F0F, -2px -2px 9px #2D0F0F;}
+.FP_MM_xlb .content { height: 220px; overflow: auto; background-color: #20050A; padding: 5px; text-align: justify;}
+
+#MM_FF_box .credits {
+    text-transform: uppercase;
+    color: white;
+    opacity: 0.2;
+    font-size: 6px;
+    text-align: center;
+}
+#MM_FF_box .credits a {
+    text-decoration: none; color: white;
+}
+.contentFL {
+    overflow: none;
+}
+.FL_MM_lien{
+    width: 560px;
+    margin: auto;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #25080D;
+    padding: 2px;
+}
+.FL_MM_img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+.FL_MM_img img {width: 100px; height: 100px;}
+.FL_MM_desc {
+    width: 430px;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+#titreFL_MM {
+    width: 430px;
+    text-align: center;
+    font-family: 'Elsie', cursive;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+    color: white;
+}
+
+#titreFL_MMspan {
+    font-family: 'Elsie', cursive;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+.FL_MM_content {
+    width: 430px;
+    height: 80px;
+    overflow: auto;
+  background-color: #20050A;
+}
+.contentFL {
+  background-color: #20050A;
+  padding: 5px;
+}
+.titreRP_MM {
+  font-family: 'Elsie', cursive;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+}
+.descRP {
+  width: 90%;
+  height: 50px;
+  padding: 5px;
+  overflow: auto;
+  text-align: justify;
+  margin: auto;
+  font-size: 10px;
+}
+/* ------------- INVENTAIRE ----------- */
+.MM_INV_top .inv_img {width: 140px; border: 1px solid white; margin: 9px 3px; display: inline-block;height: 60px;}
+.MM_INV_top .inv_desc {width: 140px; border: 1px solid white; margin: 9px 3px; display: inline-block;height: 55px; vertical-align: top; text-align: center; padding-top: 5px;}
+
+.FP_MM_xlb_inv {
+    width: 600px;
+}
+.FP_MM_xlb_inv #MM_FP_hb { width: 580px;}
+.FP_MM_xlb_inv .infos {border-radius: 10px; overflow: hidden;width: 580px; box-shadow:2px 2px 9px #2D0F0F, -2px -2px 9px #2D0F0F;}
+.FP_MM_xlb_inv .content { height: 105px; overflow-y: scroll; background-color: #20050A; padding: 0px; text-align: center;}
+
+.FP_MM_xlb_inv .cartechoco {height: 100px; width: 100px; border: 1px solid white; display: inline-block; padding: none; margin: 3px;}
+
+#MM_inv_lb_h {
+    width: 220px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#MM_inv_ro .infos {border-radius: 10px; overflow:hidden; margin-bottom: 5px; background-color: #20050A;box-shadow:2px 2px 9px #2D0F0F, -2px -2px 9px #2D0F0F;}
+#MM_inv_ro .infos .content {height: 75px; overflow: auto; text-align: justify; padding: 5px;}
+#MM_inv_ro .infos_FP_MM_pf {border-radius: 10px; overflow:hidden; margin-bottom: 5px; background-color: #20050A;box-shadow:2px 2px 9px #2D0F0F, -2px -2px 9px #2D0F0F;}
+#MM_inv_ro .infos_FP_MM_pf .content {height: 220px; overflow: auto; text-align: justify; padding: 5px;}
+#MM_inv_ro .MM_INV_top {border-radius: 10px; overflow:hidden; margin-bottom: 5px; background-color: #20050A;box-shadow:2px 2px 9px #2D0F0F, -2px -2px 9px #2D0F0F;}
+#MM_inv_lb_h #MM_FP_hb {
+    background-image: url('https://www.zupimages.net/up/18/19/4gjz.png');
+    height: 50px;
+    width: 190px;
+}
